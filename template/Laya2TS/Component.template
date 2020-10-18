@@ -1,0 +1,21 @@
+{includeFiles}
+import { fairygui } from "../../LTGame/BaseUI/UI/GComs";
+
+export default class {className} extends {componentName} {
+
+{variable}
+
+	public static URL:string = "{uiPath}";
+
+	public static createInstance():{className} {
+{createInstance}
+	}
+
+	public constructor() {
+		super();
+	}
+
+	protected onConstruct(): void {
+{content}
+	}
+}
